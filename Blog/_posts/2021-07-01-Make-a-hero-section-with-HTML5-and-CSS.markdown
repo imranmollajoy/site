@@ -2,6 +2,8 @@
 layout: post
 img: /img/portfolio/wastenot-landing-page.jpg
 title: "Make a hero section with HTML5 and CSS"
+category: Web Development
+tags: hero section with HTML5 and CSS, make a hero section, what is a hero section
 ---
 
 

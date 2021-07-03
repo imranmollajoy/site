@@ -4,10 +4,6 @@
 *.bat
 
 .git
-
 assets/style/s.css.map
-
 *.map
-
-
-
+_site
