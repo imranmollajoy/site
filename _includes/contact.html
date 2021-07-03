@@ -1,0 +1,73 @@
+<!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Connect With Me_</h2>
+                    <hr class="empty">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+				<h3 class="yellow">I can help you for your next BIG project.</h3>
+				<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyylpnnl" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="full-name">Full Name</label>
+                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                      <label for="email-address">Email Address</label>
+                      <input type="email" name="_replyto" id="email-address" placeholder="Your mail" required="">
+                      <label for="subject">Subject</label>
+                      <input type="text" name="msg-subject" id="subject" placeholder="I need a website / Make a design for me / Lets make a game" required="">
+                      <label for="message">Message</label>
+                      <textarea rows="5" name="message" id="message" placeholder="Write your message" required=""></textarea>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Submit">
+				 <hr class="empty">
+				
+                   <ul class="list-inline">
+                        {% if site.facebook_username %}
+                        <li>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}">facebook</a>
+                        </li>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <li>
+                            <a href="https://twitter.com/{{ site.twitter_username }}">twitter</a>
+                        </li>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <li>
+                            <a href="https://github.com/{{ site.github_username }}">github</a>
+                        </li>
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <li>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}">instagram</a>
+                        </li>
+                        {% endif %}
+                        {% if site.stackoverflow_url %}
+                        <li>
+							<a href="{{ site.stackoverflow_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.googleplus_username %}
+                        <li>
+							<a href="https://plus.google.com/+{{ site.googleplus_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.skype_username %}
+                        <li>
+							<a href="skype:{{ site.skype_username }}?call" class="btn-social btn-outline"><i class="fa fa-fw fa-skype"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.linkedin_url %}
+                        <li>
+							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

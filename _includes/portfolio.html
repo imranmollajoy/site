@@ -1,0 +1,25 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio_</h2>
+                    <hr class="empty">
+                </div>
+            </div>
+            <div class="row">
+                {% for post in site.categories.Portfolio %}
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#{{ post.modalID }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <h4 style="color:black;margin:0">Check</h4>
+                                </div>
+                            </div>
+                            <img src="{{ post.img }}" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

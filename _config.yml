@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Imran Molla Joy
+email: imranmollajoy@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a game developer and web designer.  I design UI/UX and graphics.
+  Have a look at my portfolio.
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+headertitle: >- 
+  let's make something<br>
+  valuable 
+headertext: >-
+  or let me make it for you
+# Social media profiles 
+github_username:  imranmollajoy
+instagram_username: imranmollajoy
+
+
+# Address information
+address_street: Lebukhali, Dumki
+address_city: PTK
+address_state: Barishal
+address_zip: 8602
+
+# Build settings
+markdown: kramdown

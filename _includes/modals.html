@@ -1,0 +1,33 @@
+{% for post in site.categories.Portfolio %}
+<div class="portfolio-modal modal fade" id="{{ post.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>{{ post.title }}</h2>
+						
+                        <hr class="empty">
+                        <img src="{{ post.img }}" class="img-responsive img-centered" alt="">
+						<ul class="list-inline item-details">
+                            <li>Category:
+                                <strong>{{ post.category }}
+                                    </strong>
+                            </li>
+                           <li>Made with:
+                                <strong>{{ post.tools }}
+                                    </strong>
+                            </li>
+					    
+                        </ul>
+                        {{ post.content }}
+                        
+                        
+						<div class="close-mod"><a href data-dismiss="modal">Close</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

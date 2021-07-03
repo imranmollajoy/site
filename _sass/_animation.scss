@@ -1,0 +1,38 @@
+.transition-fade {
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.transition-nav {
+    transform: translateY(0);
+    transition: 0.5s;
+}
+
+.transition-slide-down {
+    transform: translateY(0px);
+    transition: 0.5s;
+}
+
+
+.transition-zoom-out {
+    transform: initial;
+    transition: 0.5s;
+}
+
+html {
+    &.is-animating {
+        .transition-fade {
+            opacity: 0;
+        }
+        .transition-nav {
+            transform: translateY(-100px);
+        }
+        .transition-slide-down {
+            transform: translateY(300px);
+        }
+        
+        .transition-zoom-out {
+            transform: scale(0.5);
+        }
+    }
+}

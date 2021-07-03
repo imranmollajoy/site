@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imran Molla Joy</title>
+    <description>I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 Jul 2021 21:22:20 +0600</pubDate>
+    <lastBuildDate>Fri, 02 Jul 2021 21:22:20 +0600</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Make a hero section with HTML5 and CSS</title>
+        <description>&lt;h2 id=&quot;whats-a-hero-section&quot;&gt;What’s a hero section&lt;/h2&gt;
+
+&lt;p&gt;A hero section or hero image is the top element of a webpage that is full-width and sometimes full height of device screen. It may contain an full-sized image, video or animation in background and a big text. Sometimes it has call-to-action button.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-a-hero-section&quot;&gt;Why a hero section&lt;/h2&gt;
+
+&lt;p&gt;Hero section is cool. It is essential for modern website design. A hero section gives a website nice personality and look. The first thing visitor will notice is the hero section. It creates a positive feelings for them.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-make-one&quot;&gt;Lets make one&lt;/h2&gt;
+
+&lt;p&gt;Making a hero section is super easy. For this tutorial, we will use an image for our hero section’s background. You can use a video too if you want to.&lt;/p&gt;
+
+&lt;p&gt;Firstly we will create two files named index.html and style.css in a same folder. Also bring the image you want to use in that folder. In my case, the image name is header-img.jpg&lt;/p&gt;
+
+&lt;p&gt;Then open index.html in your favorite text editor and add the basic html markup as following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html5&quot;&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+	&amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+	&amp;lt;!-- Setup the viewport for consistent view --&amp;gt;
+	&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&amp;gt;
+	&amp;lt;!-- Include the stylesheet --&amp;gt;
+	&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&amp;gt;
+	&amp;lt;title&amp;gt;Hero Section&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+	
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next in the body, we will create a section with an id named hero.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html5&quot;&gt;&amp;lt;section id=&quot;hero&quot;&amp;gt;
+&amp;lt;/section&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then add the following code inside the section:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html5&quot;&gt;&amp;lt;h3&amp;gt;Hero Section is Awesome&amp;lt;/h3&amp;gt;
+&amp;lt;a class=&quot;cta&quot;&amp;gt;Yup!&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now your code should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-html5&quot;&gt;
+&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+	&amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+	&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&amp;gt;
+	&amp;lt;title&amp;gt;Hero Section&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+    &amp;lt;!-- The hero section --&amp;gt;
+	&amp;lt;section id=&quot;hero&quot;&amp;gt;
+	   &amp;lt;h3&amp;gt;Hero Section is Awesome&amp;lt;/h3&amp;gt;
+       &amp;lt;a href=&quot;#&quot; class=&quot;cta&quot;&amp;gt;Yup!&amp;lt;/a&amp;gt;
+    &amp;lt;/section&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now open the index.html in your browser. Doesn’t look great, right? Let’s fix this.
+It’s time for the styling! Open style.css and add this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css3&quot;&gt;body{
+    margin: 0;
+}
+h1{
+    font-size: 4em;
+    font-weight: 800;
+    color:rgb(253, 255, 126);
+    /* Bring the call to action closer */
+	margin-bottom: 16px;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next style the call to action. Add following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css3&quot;&gt;
+a.cta{
+    background: rgb(0, 255, 170);
+    padding: 16px 64px;
+    border-radius: 8px;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: rgb(34, 32, 26);
+    
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So far so great. But we are not done yet. Now we will style the main thing, the hero section.
+Add this code in style.css:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css3&quot;&gt;
+section#hero{
+
+    /* Make the section full width */
+    width: 100%;
+	/* Make the section 80% of viewort height  */
+    height: 80vh;
+
+	/* The hero image and a linear gradient to add an overlay */
+    background: linear-gradient(rgba(0,0,0,0.6) 60%, rgba(255, 255, 255,1)), url(&quot;header-img.jpg&quot;);
+	/* Do not repeat the image */
+    background-repeat: no-repeat;
+	/*make the image to resize according to viewport */
+    background-size: cover;
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Refresh the browser. Yayy! You made a cool hero section. But the heading and the call to action is not positioned nicely. Let’s work on that. Insert this code inside section#hero.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css3&quot;&gt;
+
+    display: flex;
+    /* Center elements horizontally */
+    justify-content: center;
+    /* Center elements vertically */
+    align-items: center;
+    /* Elements will stack on top of each other */
+    flex-flow: column;
+    /* Make the text align on center */
+    text-align: center;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;style.css should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-css3&quot;&gt;
+
+   body{
+    margin: 0;
+}
+h1{
+    font-size: 4em;
+    font-weight: 800;
+    color:rgb(253, 255, 126);
+    margin-bottom: 16px;
+}
+a.cta{
+    background: rgb(0, 255, 170);
+    padding: 16px 64px;
+    border-radius: 8px;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: rgb(34, 32, 26);
+    
+}
+
+section#hero{
+
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.6) 60%, rgba(255, 255, 255,1)), url(&quot;header-img.jpg&quot;);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That’s it. You’ve made a cool looking hero section for your website that’ll draw visitors attention.&lt;/p&gt;
+
+&lt;h3 id=&quot;make-sure&quot;&gt;Make sure&lt;/h3&gt;
+&lt;p&gt;Don’t use any image/video that is large in size,&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 01 Jul 2021 00:00:00 +0600</pubDate>
+        <link>/blog/2021/07/01/Make-a-hero-section-with-HTML5-and-CSS.html</link>
+        <guid isPermaLink="true">/blog/2021/07/01/Make-a-hero-section-with-HTML5-and-CSS.html</guid>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Should you use Unity's Animator to animate your UI in 2021?</title>
+        <description>&lt;p&gt;It’s a headache for unity developers, mostly those who have little to no experience in animating UI. The debate is still on, whether you should use the built-in animatior to animate your UI or use a tweening library.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-the-debate&quot;&gt;Why the debate&lt;/h2&gt;
+
+&lt;p&gt;Animating a UI game object makes the whole canvas dirty, even when it is not animating. thus it affects the performance. That’s the main reason for avoiding built-in animation to animate UI.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-you-should-do&quot;&gt;What you should do&lt;/h2&gt;
+
+&lt;p&gt;However, this behavior has been improved in recent versions of unity. The whole canvas doesn’t get rerendered when animating a single UI object. So you can animate your UI without any problem.&lt;/p&gt;
+
+&lt;p&gt;I tested in a low end mobile device, the build had reasonable amount of UI elements. I got 55-60fps while animating and 57-61 while tweening.&lt;/p&gt;
+
+&lt;p&gt;If your primary target is PC and high-end devices, go for animating UI without any second thought. It’ll save you a lot of time in development.
+If your primary target is mobile devices, you can still animate, as it doesn’t visibly affect any performance. You can only tell the difference in the profiler. In the build you will get the same result with both animating and tweening.&lt;/p&gt;
+
+&lt;p&gt;But does that mean tweening is over? No. Tweening is flexible, programmer-friendly and reusable. In fact I used tweening for &lt;a href=&quot;https://strangegamestemp.itch.io/a-balls-cursed-day&quot;&gt;my game&lt;/a&gt;, because it’s reusable.
+You can still use a tweening library if you want reusability and if you are comfortable with code.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 30 Jun 2021 00:00:00 +0600</pubDate>
+        <link>/blog/2021/06/30/should-you-use-unitys-animator-to-animate-your-ui-in-2021.html</link>
+        <guid isPermaLink="true">/blog/2021/06/30/should-you-use-unitys-animator-to-animate-your-ui-in-2021.html</guid>
+        
+        
+        <category>Blog</category>
+        
+      </item>
+    
+      <item>
+        <title>UI design of a camera app</title>
+        <description>&lt;p&gt;Design of a camera and gallery app.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Apr 2021 02:08:10 +0600</pubDate>
+        <link>/portfolio/ui/ux%20design/2021/04/03/Ficmera-design.html</link>
+        <guid isPermaLink="true">/portfolio/ui/ux%20design/2021/04/03/Ficmera-design.html</guid>
+        
+        
+        <category>Portfolio</category>
+        
+        <category>UI/UX Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Landing page of Waste Not</title>
+        <description>&lt;p&gt;Landing page for the full version of Waste Not.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/portfolio/wastenot-landing-page-full.jpg&quot; alt=&quot;Full screenshot of the kanding page of Waste Not&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imranmollajoy.github.io/wastenot/&quot;&gt;Play the prototype of Waste Not&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Apr 2021 02:08:10 +0600</pubDate>
+        <link>/portfolio/web%20design/2021/04/03/Landing-page-of-waste-not.html</link>
+        <guid isPermaLink="true">/portfolio/web%20design/2021/04/03/Landing-page-of-waste-not.html</guid>
+        
+        
+        <category>Portfolio</category>
+        
+        <category>Web Design</category>
+        
+      </item>
+    
+      <item>
+        <title>Mockup of Waste Not</title>
+        <description>&lt;p&gt;I am making this game to further increase my ability on javascript.
+The image above is a mockup of the final product.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imranmollajoy.github.io/wastenot/&quot;&gt;Play the prototype&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Apr 2021 02:08:10 +0600</pubDate>
+        <link>/portfolio/game/2021/04/03/Mockup-of-Waste-Not.html</link>
+        <guid isPermaLink="true">/portfolio/game/2021/04/03/Mockup-of-Waste-Not.html</guid>
+        
+        
+        <category>Portfolio</category>
+        
+        <category>Game</category>
+        
+      </item>
+    
+      <item>
+        <title>A Ball's Cursed Day</title>
+        <description>&lt;p&gt;This is my first fully featured game. It was made in Unity Engine. 
+I made the art assets in Gimp and Photoshop. It took me 4 months to complete the game.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://strangegamestemp.itch.io/a-balls-cursed-day&quot;&gt;Check the game&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Apr 2021 02:08:10 +0600</pubDate>
+        <link>/portfolio/game/2021/04/03/A-Balls-Cursed-Day.html</link>
+        <guid isPermaLink="true">/portfolio/game/2021/04/03/A-Balls-Cursed-Day.html</guid>
+        
+        
+        <category>Portfolio</category>
+        
+        <category>Game</category>
+        
+      </item>
+    
+  </channel>
+</rss>
