@@ -2,6 +2,11 @@
 layout: posts
 ---
 <section id="blog">
+    <div class="row">
+        <div class="container-fluid">
+		<h1 class="text-center">Blog</h1>
+		</div>
+    </div>
     <div class="post-list">
         {% for post in site.categories.Blog %}
         <div class="single-post  transition-zoom-out" {% if post.img %} style="background: linear-gradient(rgba(0,0,0,0.84) 30%, rgba(0,255,255,0.5) 100%), url({{ post.img }});background-size:cover;
