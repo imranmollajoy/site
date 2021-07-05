@@ -4,8 +4,9 @@ title: Make a hero section with HTML5 and CSS
 category: Web Development
 tags: hero section with HTML5 and CSS, make a hero section, what is a hero section
 tag:
-  - make-a-hero-section
-  - hero-sectionhero-section-html-css
+  - make a hero section
+  - hero section
+  - hero section html css
 date: 2021-07-01T12:28:21.235Z
 img: /img/uploads/wastenot-landing-page.jpg
 ---
