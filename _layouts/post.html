@@ -17,8 +17,11 @@
                                     </strong>
                 </li>
                 <li style="display:none;">Tags:
-                    <strong>{{ page.tag }}
-                                    </strong>
+                    <strong>
+                        {% for t in page.tag %}
+                        {{ t }} ,
+                        {% endfor %} 
+                                                            </strong>
                 </li>
             </ul>
             {% if page.img %}
