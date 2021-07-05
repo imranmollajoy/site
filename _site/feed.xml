@@ -5,26 +5,9 @@
     <description>I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jul 2021 23:36:46 +0600</pubDate>
-    <lastBuildDate>Mon, 05 Jul 2021 23:36:46 +0600</lastBuildDate>
+    <pubDate>Mon, 05 Jul 2021 23:40:38 +0600</pubDate>
+    <lastBuildDate>Mon, 05 Jul 2021 23:40:38 +0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
-    
-      <item>
-        <title>Website optimization tips</title>
-        <description>&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
-</description>
-        <pubDate>Mon, 05 Jul 2021 14:16:06 +0600</pubDate>
-        <link>http://localhost:4000/blog/web%20development/2021/07/05/website-optimization-tips.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/web%20development/2021/07/05/website-optimization-tips.html</guid>
-        
-        <category>web optimization</category>
-        
-        
-        <category>Blog</category>
-        
-        <category>Web Development</category>
-        
-      </item>
     
       <item>
         <title>Make a hero section with HTML5 and CSS</title>
