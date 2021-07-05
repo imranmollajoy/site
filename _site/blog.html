@@ -30,7 +30,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	 <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
@@ -91,7 +91,7 @@
     </div>
     <div class="post-list">
         
-        <div class="single-post  transition-zoom-out"  style="background: linear-gradient(rgba(0,0,0,0.84) 30%, rgba(0,255,255,0.5) 100%), url(/img/uploads/wastenot-landing-page.jpg);background-size:cover;
+        <div class="single-post  transition-zoom-out"  style="background: linear-gradient(rgba(0,0,0,0.84) 30%, #27cf8691 100%), url(/img/uploads/wastenot-landing-page.jpg);background-size:cover;
 			background-position:center;  " >
 
             <h3><a href="/blog/web%20development/2021/07/01/make-a-hero-section-with-html5-and-css.html">Make a hero section with HTML5 and CSS</a></h3>
@@ -99,7 +99,7 @@
 
         </div>
         
-        <div class="single-post  transition-zoom-out"  style="background: linear-gradient(rgba(0,0,0,0.84) 30%, rgba(0,255,255,0.5) 100%), url(/img/uploads/animator-vs-tweening-unity.jpg);background-size:cover;
+        <div class="single-post  transition-zoom-out"  style="background: linear-gradient(rgba(0,0,0,0.84) 30%, #27cf8691 100%), url(/img/uploads/animator-vs-tweening-unity.jpg);background-size:cover;
 			background-position:center;  " >
 
             <h3><a href="/blog/game%20development/2021/06/30/should-you-use-unitys-animator-to-animate-your-ui-in-2021.html">Should you use Unity's Animator to animate your UI in 2021?</a></h3>
@@ -152,6 +152,26 @@
 <!-- swup libray -->
 <script src="/assets/js/swup.min.js"></script>
 <script src="/assets/js/animation.js"></script>
+
+<!-- scroll magic libray -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+<!-- particle  libray -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.30.3/tsparticles.min.js"></script>
+<script>
+     // @path-json can be an object or an array, the first will be loaded directly, the object from the array will be random selected
+/* tsParticles.loadJSON(@dom-id, @path-json, @callback (optional)); */
+
+tsParticles
+  .loadJSON("particles-js", "/assets/js/particlesjs-config.json")
+  .then((container) => {
+    console.log("callback - tsparticles config loaded");
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+</script>
+
 </body>
 
 </html>

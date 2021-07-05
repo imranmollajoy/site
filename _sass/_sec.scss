@@ -2,23 +2,19 @@ $p:#000;
 $w:#fff;
 $s:#2c3e50;
 $g:green;
-$c:cyan;
-$b:#333;
+$c:#27cf87;
+$b:#121212;
 $d: #333366;
-@import url('https://fonts.googleapis.com/css?family=Roboto:400|Poppins:400');
+@media (prefers-color-scheme: dark) {
+     :root {
+        --b: #fff;
+    }
+}
 
-@media (prefers-color-scheme: dark) 
-{
-    
-    :root{
-        --b:#fff;
-     }
-  }
+:root {
+    --b: #121212;
+}
 
-
-:root{
-     --b:#333;
-  }
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -85,7 +81,7 @@ hr {
 
 .navbar-custom,
 header .intro-text .name {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 hr {
@@ -136,7 +132,7 @@ hr {
 
 header {
     text-align: center;
-    background:  url('/img/header.svg');
+    background: url('/img/header.svg');
     background-color: $c;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,7 +155,6 @@ header {
             font-weight: 700;
             font-size: 3em;
             line-height: 1;
-          
         }
         .skills {
             font-size: 1.75em;
@@ -194,6 +189,7 @@ header {
     background: var(--b);
     font-weight: 700;
     border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
     a:focus {
         outline: 0;
     }
@@ -245,14 +241,15 @@ header {
 @media (min-width: 768px) {
     .navbar-custom {
         padding: 25px 0;
-        -webkit-transition: padding 0.3s;
-        -moz-transition: padding 0.3s;
-        transition: padding 0.3s;
-        background: rgba(0, 0, 0, 0);
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        background: rgba(255, 255, 255, 0.089);
+        backdrop-filter: blur(4px);
         &.affix {
             padding: 4px 6px;
-            background: var(--b);
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+            background: rgba(47, 163, 146, 0.8);
+            box-shadow: 0px 6px 8px rgba(17, 63, 46, 0.5);
             .navbar-brand {
                 font-size: 1.5em;
                 &.navbar-custom {
@@ -260,6 +257,18 @@ header {
                         color: var(--b);
                         img {
                             height: 32px;
+                        }
+                    }
+                    .navbar-nav {
+                        letter-spacing: 1px;
+                        li {
+                            a {
+                                &:hover,
+                                &:active,
+                                &:focus {
+                                    color: $c;
+                                }
+                            }
                         }
                     }
                 }
@@ -271,6 +280,25 @@ header {
             -moz-transition: all 0.3s;
             transition: all 0.3s;
             color: $w;
+        }
+        .navbar-nav {
+            letter-spacing: 1px;
+            li {
+                a {
+				-webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+                    font-family: 'Poppins', sans-serif;
+                    background-size: 4px 100%;
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        background: var(--b);
+                        color: $c;
+                        border-radius: 8px;
+                    }
+                }
+            }
         }
     }
 }
@@ -291,7 +319,6 @@ section {
         background: $w;
         color: var(--b);
     }
-
     &#contact {
         background: $c;
         color: var(--b);
@@ -303,10 +330,10 @@ section {
         background: url('/img/exploreblog.svg');
         background-color: $w;
         color: var(--b);
-        background-repeat:no-repeat;
-        background-size:cover;
-        background-position:center;
-        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
         .skill-card {
             background: #111;
             width: 100%;
@@ -394,6 +421,8 @@ section {
         @extend progressive-a;
         a {
             font-size: 1.9em;
+            border: 1px solid $w;
+            border-radius: 4px;
             background-size: 100% 100%;
             &.active,
             &:active,
@@ -404,7 +433,7 @@ section {
         }
         h2 {
             margin-bottom: 32px;
-            color:var(--b);
+            color: var(--b);
         }
         background: url('/img/exploreblog.svg');
         background-color: $w;

@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	 <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav/apple-touch-icon.png">
@@ -99,13 +99,16 @@
    <div id="swupx" class="transition-fade">
     
     <!-- Header -->
-<header>
+<header style="z-index: -1;">
+    <div id="particles-js"></div>
     <div class="container">
+        
         <div class="row">
             <div class="col">
                 <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
                 <div class="intro-text transition-slide-down">
-                    <h2 class="name">let's make something<br> valuable </h2>
+                    <h2 class="name">LET'S MAKE <br>SOMETHING VALUABLE</h2>
+                   
                  <!----   <div class="skills">or let me make it for you</div> -->
                 </div>
             </div>
@@ -113,7 +116,7 @@
         </div>
     </div>
 </header>
-	
+	 <div style="z-index: 99;">
 	
   	<!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -495,7 +498,7 @@ I made the art assets in Gimp and Photoshop. It took me 4 months to complete the
     </div>
 </div>
 
-
+  </div>
     
   </div>
   <!-- jQuery -->
@@ -509,6 +512,26 @@ I made the art assets in Gimp and Photoshop. It took me 4 months to complete the
 <!-- swup libray -->
 <script src="/assets/js/swup.min.js"></script>
 <script src="/assets/js/animation.js"></script>
+
+<!-- scroll magic libray -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
+<!-- particle  libray -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.30.3/tsparticles.min.js"></script>
+<script>
+     // @path-json can be an object or an array, the first will be loaded directly, the object from the array will be random selected
+/* tsParticles.loadJSON(@dom-id, @path-json, @callback (optional)); */
+
+tsParticles
+  .loadJSON("particles-js", "/assets/js/particlesjs-config.json")
+  .then((container) => {
+    console.log("callback - tsparticles config loaded");
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+</script>
+
   </body>
 
 </html>
