@@ -31,14 +31,23 @@
                 {{ content }}
             </div>
             <hr class="empty">
+            {% if page.modalID %}{{ }}
+            {% else %}
             <div class="post-nav">
-                <a href="/blog.html" class="to-blog">Back to Blog</a> <br>
+                
+                
+
+               
+                <a href="/blog.html" class="to-blog">Back to Blog</a>
+                
+                <br>
                 <a href="/">Home</a>
             </div>
 
             <div class="signup">
                 {% include mailchimp-embedded.html %}
             </div>
+            {% endif }
         </section>
 
         {% include footer.html %}

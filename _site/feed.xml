@@ -5,8 +5,8 @@
     <description>I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jul 2021 15:46:11 +0600</pubDate>
-    <lastBuildDate>Mon, 05 Jul 2021 15:46:11 +0600</lastBuildDate>
+    <pubDate>Mon, 05 Jul 2021 23:36:46 +0600</pubDate>
+    <lastBuildDate>Mon, 05 Jul 2021 23:36:46 +0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -265,7 +265,7 @@ You can still use a tweening library if you want reusability and if you are comf
       </item>
     
       <item>
-        <title>Landing page of Waste Not</title>
+        <title>Landing page of my next game</title>
         <description>&lt;p&gt;Landing page for the full version of Waste Not.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/portfolio/wastenot-landing-page-full.jpg&quot; alt=&quot;Full screenshot of the kanding page of Waste Not&quot; /&gt;&lt;/p&gt;
@@ -285,7 +285,7 @@ You can still use a tweening library if you want reusability and if you are comf
       </item>
     
       <item>
-        <title>Mockup of Waste Not</title>
+        <title>Mockup of my next game</title>
         <description>&lt;p&gt;I am making this game to further increase my ability on javascript.
 The image above is a mockup of the final product.&lt;/p&gt;
 
@@ -304,9 +304,8 @@ The image above is a mockup of the final product.&lt;/p&gt;
       </item>
     
       <item>
-        <title>A Ball's Cursed Day</title>
-        <description>&lt;p&gt;This is my first fully featured game. It was made in Unity Engine. 
-I made the art assets in Gimp and Photoshop. It took me 4 months to complete the game.&lt;/p&gt;
+        <title>Video games for mobile and PC</title>
+        <description>&lt;p&gt;This is my first fully featured game. It took me 4 months to complete the game.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://strangegamestemp.itch.io/a-balls-cursed-day&quot;&gt;Check the game&lt;/a&gt;&lt;/p&gt;
 

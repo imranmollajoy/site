@@ -1,6 +1,6 @@
-$p:#000;
+
 $w:#fff;
-$s:#2c3e50;
+$s:#D2FFEB;
 $g:green;
 $c:#27cf87;
 $b:#121212;
@@ -20,6 +20,7 @@ body {
     overflow-x: hidden;
     background: $b;
     color: $w;
+    box-sizing: border-box;
 }
 
 p {
@@ -310,10 +311,10 @@ section {
         font-size: 3em;
     }
     &.success {
-        background: var(--b);
-        color: $w;
+        color: var(--b);
+        background:  $s;
     }
-    &.success,
+
     &#blog,
     &#post {
         background: $w;
@@ -328,7 +329,7 @@ section {
     }
     &#skills {
         background: url('/img/exploreblog.svg');
-        background-color: $w;
+        background-color: $s;
         color: var(--b);
         background-repeat: no-repeat;
         background-size: cover;
@@ -352,6 +353,12 @@ section {
         h3 {
             text-align: center;
         }
+    }
+
+    div.portfolio-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
@@ -436,7 +443,7 @@ section {
             color: var(--b);
         }
         background: url('/img/exploreblog.svg');
-        background-color: $w;
+        background-color: $s;
         background-repeat:no-repeat;
         background-size:cover;
         background-position:center;
@@ -459,7 +466,8 @@ section {
     .portfolio-link {
         display: block;
         position: relative;
-        max-width: 400px;
+        width: 400px;
+        height: 300px;
         margin: 0 auto;
         .caption {
             background: linear-gradient(to left, $c 0%, $c 100%);
@@ -863,7 +871,7 @@ fieldset[disabled] .btn-success {
     }
 }
 
-#blog {
+#blog, #portfolio {
     @extend progressive-a;
     .post-list {
         padding: 128px 128px;
@@ -898,6 +906,36 @@ fieldset[disabled] .btn-success {
     }
 }
 
+
+#portfolio {
+    .post-list {
+        justify-content: center;
+        gap:16px;
+        .single-post {
+            width: 400px;
+            height: 300px;
+        }
+
+        h3{
+            font-weight: 800;
+        }
+
+       
+    }
+    a.portfolio-more{
+        font-size: 1.9em;
+        border: 1px solid $w;
+        border-radius: 4px;
+        background-size: 100% 100%;
+        &.active,
+        &:active,
+        &:focus,
+        &:hover {
+            background-size: 4px 100%;
+            color: $w;
+        }
+    }
+}
 #post {
     padding: 256px 256px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -934,8 +972,8 @@ fieldset[disabled] .btn-success {
     }
 }
 
-@media (max-width: 900px) {
-    #blog {
+@media (max-width: 600px) {
+    #blog , #portfolio{
         .post-list {
             padding: 128px 32px;
             justify-content: center;

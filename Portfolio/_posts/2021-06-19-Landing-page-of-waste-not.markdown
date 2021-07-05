@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Landing page of Waste Not"
+title:  "Landing page of my next game"
 date:   2021-04-02 15:08:10 -0500
 img: /img/portfolio/wastenot-landing-page.jpg
 modalID: modalWastenotPage

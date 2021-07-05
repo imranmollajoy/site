@@ -8,7 +8,8 @@ body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   background: #121212;
-  color: #fff; }
+  color: #fff;
+  box-sizing: border-box; }
 
 p {
   font-size: 20px; }
@@ -204,9 +205,9 @@ section {
     margin: 0;
     font-size: 3em; }
   section.success {
-    background: var(--b);
-    color: #fff; }
-  section.success, section#blog, section#post {
+    color: var(--b);
+    background: #D2FFEB; }
+  section#blog, section#post {
     background: #fff;
     color: var(--b); }
   section#contact {
@@ -216,7 +217,7 @@ section {
     padding: 128px 0; }
   section#skills {
     background: url("/img/exploreblog.svg");
-    background-color: #fff;
+    background-color: #D2FFEB;
     color: var(--b);
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,8 +237,12 @@ section {
         font-size: 1.3em; }
     section#skills h3 {
       text-align: center; }
+  section div.portfolio-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
 
-progressive-a a, .modal-content a, .close-mod a, section#about a, section#contact a, section#explore-blog a, footer .footer-below a, #blog a, #post a {
+progressive-a a, .modal-content a, .close-mod a, section#about a, section#contact a, section#explore-blog a, footer .footer-below a, #blog a, #portfolio a, #post a {
   background: linear-gradient(to left, #27cf87 0%, #27cf87 100%);
   background-position: 0 100%;
   background-repeat: repeat-y;
@@ -249,7 +254,7 @@ progressive-a a, .modal-content a, .close-mod a, section#about a, section#contac
   -moz-transition: all 0.3s;
   padding: 3px 3px;
   font-family: 'Poppins', sans-serif; }
-  progressive-a a.active, .modal-content a.active, .close-mod a.active, section#about a.active, section#contact a.active, section#explore-blog a.active, footer .footer-below a.active, #blog a.active, #post a.active, progressive-a a:active, .modal-content a:active, .close-mod a:active, section#about a:active, section#contact a:active, section#explore-blog a:active, footer .footer-below a:active, #blog a:active, #post a:active, progressive-a a:focus, .modal-content a:focus, .close-mod a:focus, section#about a:focus, section#contact a:focus, section#explore-blog a:focus, footer .footer-below a:focus, #blog a:focus, #post a:focus, progressive-a a:hover, .modal-content a:hover, .close-mod a:hover, section#about a:hover, section#contact a:hover, section#explore-blog a:hover, footer .footer-below a:hover, #blog a:hover, #post a:hover {
+  progressive-a a.active, .modal-content a.active, .close-mod a.active, section#about a.active, section#contact a.active, section#explore-blog a.active, footer .footer-below a.active, #blog a.active, #portfolio a.active, #post a.active, progressive-a a:active, .modal-content a:active, .close-mod a:active, section#about a:active, section#contact a:active, section#explore-blog a:active, footer .footer-below a:active, #blog a:active, #portfolio a:active, #post a:active, progressive-a a:focus, .modal-content a:focus, .close-mod a:focus, section#about a:focus, section#contact a:focus, section#explore-blog a:focus, footer .footer-below a:focus, #blog a:focus, #portfolio a:focus, #post a:focus, progressive-a a:hover, .modal-content a:hover, .close-mod a:hover, section#about a:hover, section#contact a:hover, section#explore-blog a:hover, footer .footer-below a:hover, #blog a:hover, #portfolio a:hover, #post a:hover {
     background-size: 100% 100%; }
 
 .close-mod {
@@ -272,7 +277,7 @@ section#contact a {
   background-size: 4px 100%; }
 section#explore-blog {
   background: url("/img/exploreblog.svg");
-  background-color: #fff;
+  background-color: #D2FFEB;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -299,7 +304,8 @@ section#explore-blog {
   #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
-    max-width: 400px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .caption {
       background: linear-gradient(to left, #27cf87 0%, #27cf87 100%);
@@ -582,31 +588,48 @@ fieldset[disabled] .btn-success {
   opacity: 0;
   display: none; }
 
-#blog .post-list {
+#blog .post-list, #portfolio .post-list {
   padding: 128px 128px;
   display: flex;
   align-items: center;
   justify-content: left;
   flex-flow: row wrap;
   gap: 2em; }
-  #blog .post-list .single-post {
+  #blog .post-list .single-post, #portfolio .post-list .single-post {
     width: 300px;
     height: 400px;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
     background-size: cover;
     background-position: center;
     border-radius: 16px; }
-    #blog .post-list .single-post a {
+    #blog .post-list .single-post a, #portfolio .post-list .single-post a {
       color: #fff; }
-      #blog .post-list .single-post a:hover, #blog .post-list .single-post a:focus {
+      #blog .post-list .single-post a:hover, #blog .post-list .single-post a:focus, #portfolio .post-list .single-post a:hover, #portfolio .post-list .single-post a:focus {
         color: var(--b); }
-  #blog .post-list h3 {
+  #blog .post-list h3, #portfolio .post-list h3 {
     font-size: 2.7em;
     line-height: 1.2;
     font-weight: 400;
     z-index: 100;
     padding: 32px 16px;
     font-family: 'Poppins', sans-serif; }
+
+#portfolio .post-list {
+  justify-content: center;
+  gap: 16px; }
+  #portfolio .post-list .single-post {
+    width: 400px;
+    height: 300px; }
+  #portfolio .post-list h3 {
+    font-weight: 800; }
+#portfolio a.portfolio-more {
+  font-size: 1.9em;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-size: 100% 100%; }
+  #portfolio a.portfolio-more.active, #portfolio a.portfolio-more:active, #portfolio a.portfolio-more:focus, #portfolio a.portfolio-more:hover {
+    background-size: 4px 100%;
+    color: #fff; }
 
 #post {
   padding: 256px 256px;
@@ -633,11 +656,11 @@ fieldset[disabled] .btn-success {
   #post .date {
     opacity: 40%; }
 
-@media (max-width: 900px) {
-  #blog .post-list {
+@media (max-width: 600px) {
+  #blog .post-list, #portfolio .post-list {
     padding: 128px 32px;
     justify-content: center; }
-    #blog .post-list .col {
+    #blog .post-list .col, #portfolio .post-list .col {
       padding: 16px 8px; }
 
   #post {

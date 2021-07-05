@@ -12,9 +12,9 @@
     <meta name="description" content="I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.">
     <meta name="keywords" content="">
 	 
-	  <!-- Mailchimp -->
+	  <!-- Mailchimp 
 	  
-	  
+	  -->
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -166,11 +166,7 @@
 
 <!-- particle  libray -->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.30.3/tsparticles.min.js"></script>
-<script>
-     // @path-json can be an object or an array, the first will be loaded directly, the object from the array will be random selected
-/* tsParticles.loadJSON(@dom-id, @path-json, @callback (optional)); */
-
-tsParticles
+<script>tsParticles
   .loadJSON("particles-js", "/assets/js/particlesjs-config.json")
   .then((container) => {
     console.log("callback - tsparticles config loaded");
@@ -178,8 +174,7 @@ tsParticles
   .catch((error) => {
     console.error(error);
   });
-</script>
-
+  </script>
 </body>
 
 </html>

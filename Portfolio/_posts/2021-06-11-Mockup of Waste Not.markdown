@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mockup of Waste Not"
+title:  "Mockup of my next game"
 date:   2021-04-02 15:08:10 -0500
 img: /img/portfolio/waste-not-mockup-cover.jpg
 modalID: modalWastenot
