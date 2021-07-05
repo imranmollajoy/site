@@ -8,7 +8,7 @@ tag:
   - hero section
   - hero section html css
 date: 2021-07-01T12:28:21.235Z
-img: /img/uploads/wastenot-landing-page.jpg
+img: /img/uploads/make-hero-section.jpg
 ---
 ## What's a hero section
 
