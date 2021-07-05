@@ -5,9 +5,26 @@
     <description>I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jul 2021 15:40:48 +0600</pubDate>
-    <lastBuildDate>Mon, 05 Jul 2021 15:40:48 +0600</lastBuildDate>
+    <pubDate>Mon, 05 Jul 2021 15:46:11 +0600</pubDate>
+    <lastBuildDate>Mon, 05 Jul 2021 15:46:11 +0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Website optimization tips</title>
+        <description>&lt;h2 id=&quot;why&quot;&gt;Why&lt;/h2&gt;
+</description>
+        <pubDate>Mon, 05 Jul 2021 14:16:06 +0600</pubDate>
+        <link>http://localhost:4000/blog/web%20development/2021/07/05/website-optimization-tips.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/web%20development/2021/07/05/website-optimization-tips.html</guid>
+        
+        <category>web optimization</category>
+        
+        
+        <category>Blog</category>
+        
+        <category>Web Development</category>
+        
+      </item>
     
       <item>
         <title>Make a hero section with HTML5 and CSS</title>
@@ -181,11 +198,11 @@ Add this code in style.css:&lt;/p&gt;
         <link>http://localhost:4000/blog/web%20development/2021/07/01/make-a-hero-section-with-html5-and-css.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/web%20development/2021/07/01/make-a-hero-section-with-html5-and-css.html</guid>
         
-        <category>make-a-hero-section</category>
+        <category>make a hero section</category>
         
-        <category>hero-section</category>
+        <category>hero section</category>
         
-        <category>hero-section-html-css</category>
+        <category>hero section html css</category>
         
         
         <category>Blog</category>
@@ -219,29 +236,11 @@ You can still use a tweening library if you want reusability and if you are comf
         <link>http://localhost:4000/blog/game%20development/2021/06/30/should-you-use-unitys-animator-to-animate-your-ui-in-2021.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/game%20development/2021/06/30/should-you-use-unitys-animator-to-animate-your-ui-in-2021.html</guid>
         
-        <category>unity</category>
+        <category>unity animator vs tween</category>
         
-        <category>animator</category>
+        <category>is animator bad for ui unity</category>
         
-        <category>vs</category>
-        
-        <category>tween,</category>
-        
-        <category>is</category>
-        
-        <category>animator</category>
-        
-        <category>better</category>
-        
-        <category>unity,</category>
-        
-        <category>is</category>
-        
-        <category>tweening</category>
-        
-        <category>better</category>
-        
-        <category>unity</category>
+        <category>unity ui tips</category>
         
         
         <category>Blog</category>
