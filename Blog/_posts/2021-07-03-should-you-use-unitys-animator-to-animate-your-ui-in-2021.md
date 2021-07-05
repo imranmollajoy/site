@@ -3,6 +3,10 @@ layout: post
 title: Should you use Unity's Animator to animate your UI in 2021?
 category: Game Development
 tags: unity animator vs tween, is animator better unity, is tweening better unity
+tag:
+  - unity-animator-vs-tween
+  - is-animator-bad-for-ui-unity
+  - unity-ui-tips
 date: 2021-06-30T12:22:47.583Z
 img: /img/uploads/animator-vs-tweening-unity.jpg
 ---
