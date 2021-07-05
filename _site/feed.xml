@@ -5,8 +5,8 @@
     <description>I am a game developer and web designer.  I design UI/UX and graphics. Have a look at my portfolio.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jul 2021 13:28:53 +0600</pubDate>
-    <lastBuildDate>Mon, 05 Jul 2021 13:28:53 +0600</lastBuildDate>
+    <pubDate>Mon, 05 Jul 2021 13:36:54 +0600</pubDate>
+    <lastBuildDate>Mon, 05 Jul 2021 13:36:54 +0600</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -181,35 +181,11 @@ Add this code in style.css:&lt;/p&gt;
         <link>http://localhost:4000/blog/web%20development/2021/07/01/make-a-hero-section-with-html5-and-css.html</link>
         <guid isPermaLink="true">http://localhost:4000/blog/web%20development/2021/07/01/make-a-hero-section-with-html5-and-css.html</guid>
         
-        <category>hero</category>
+        <category>make a hero section</category>
         
-        <category>section</category>
+        <category>hero section</category>
         
-        <category>with</category>
-        
-        <category>HTML5</category>
-        
-        <category>and</category>
-        
-        <category>CSS,</category>
-        
-        <category>make</category>
-        
-        <category>a</category>
-        
-        <category>hero</category>
-        
-        <category>section,</category>
-        
-        <category>what</category>
-        
-        <category>is</category>
-        
-        <category>a</category>
-        
-        <category>hero</category>
-        
-        <category>section</category>
+        <category>hero section html css</category>
         
         
         <category>Blog</category>
