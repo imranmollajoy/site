@@ -9,6 +9,7 @@ div{
 		border-radius: 8px;
 		box-shadow:0px 4px 5px rgba(41, 107, 74, 0.582);
 		
+		
 		.input-group{
 			ul{
 				li{
@@ -17,6 +18,13 @@ div{
 				}
 			}
 		}
+		
+		.response{
+	a{
+			text-decoration:underline;
+			background: linear-gradient(to left, $w 0%, $w 100%);
+		}
+}
 		
 	 input.mce-EMAIL,
 label{
@@ -41,9 +49,11 @@ label{
 }
 
 }
-#mc_embed_signup #mce-success-response{
-	color:$b;
+#mc_embed_signup #mce-success-response , .response{
+	color:var(--b);
 }
+
+
 
 
 
