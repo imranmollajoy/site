@@ -13,13 +13,13 @@ $d: #333366;
 :root {
     --b: #121212;
 }
-
+*{ box-sizing:border-box;}
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     background: $b;
     color: $w;
-    box-sizing: border-box;
+    
 }
 
 p {
