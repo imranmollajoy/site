@@ -29,6 +29,10 @@ In this site you can input both plain CSS or a URL to minify your code.
 
 Another intuitive CSS minifier, you can submit URL, or plain code or even your CSS file.
 
+### [CSS Compressor](https://csscompressor.com/)
+
+A highly customizable CSS minifier. You can choose many options to minify your CSS.
+
 
 
 #### References
