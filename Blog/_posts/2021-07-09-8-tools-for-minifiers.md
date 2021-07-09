@@ -7,7 +7,7 @@ tag:
   - tools for minifiction
   - css minifiers
 date: 2021-07-09T06:15:21.013Z
-img: /img/uploads/8-tools-for-css-minification.jpg
+img: /img/uploads/5-tools-for-css-minification.jpg
 ---
 ## Definition of CSS minification
 
