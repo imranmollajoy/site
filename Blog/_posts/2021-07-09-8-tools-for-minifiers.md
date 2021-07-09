@@ -16,3 +16,21 @@ CSS minification means removing unnecessary characters to reduce file size to re
 Minifiers remove white spaces, line breaks, comments, and block delimiters. 
 
 ## 8 tools for CSS minification
+
+### [CSS Minifier](https://cssminifier.com/)
+
+Clean and modern UI,  You can minify CSS with one-click. It has an API, by which you can make an automated minifier. 
+
+### [Minify - JavaScript and CSS minifier](https://www.minifier.org/)
+
+In this site you can input both plain CSS or a URL to minify your code. 
+
+### [CSS Minify - Clean CSS](https://www.cleancss.com/css-minify/)
+
+Another intuitive CSS minifier, you can submit URL, or plain code or even your CSS file.
+
+
+
+#### References
+
+[Minification](http://en.wikipedia.org/wiki/Minification_(programming)) (Wikipedia)
