@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 8 tools for minifiers
+title: 5 tools for CSS minification
 category: Web Development
 tag:
   - minify css
@@ -32,6 +32,10 @@ Another intuitive CSS minifier, you can submit URL, or plain code or even your C
 ### [CSS Compressor](https://csscompressor.com/)
 
 A highly customizable CSS minifier. You can choose many options to minify your CSS.
+
+### [Free Online CSS Minifier / Compressor - FreeFormatter.com](https://www.freeformatter.com/css-minifier.html)
+
+You can upload your CSS file or paste your code in here.
 
 
 
