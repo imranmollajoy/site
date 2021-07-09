@@ -39,6 +39,6 @@ You can upload your CSS file or paste your code in here.
 
 
 
-#### References
+#### More information
 
 [Minification](http://en.wikipedia.org/wiki/Minification_(programming)) (Wikipedia)
