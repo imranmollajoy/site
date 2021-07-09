@@ -13,8 +13,6 @@ img: /img/uploads/8-tools-for-css-minification.jpg
 
 CSS minification means removing unnecessary characters to reduce file size to reduce the load time. Minification is important because it makes webpages faster and increases overall user experience.
 
-<!--StartFragment-->
+Minifiers remove white spaces, line breaks, comments, and block delimiters. 
 
-The unnecessary characters removed in **minification** include white spaces, line breaks, comments, and block delimiters. The **minified CSS** files end with '. min
-
-<!--EndFragment-->
+## 8 tools for CSS minification
