@@ -27,7 +27,7 @@ In this site you can input both plain CSS or a URL to minify your code.
 
 ### [CSS Minify - Clean CSS](https://www.cleancss.com/css-minify/)
 
-Another intuitive CSS minifier, you can submit URL, or plain code or even your CSS file.
+Another intuitive CSS minifier, you can submit URL, plain code or even your CSS file.
 
 ### [CSS Compressor](https://csscompressor.com/)
 
