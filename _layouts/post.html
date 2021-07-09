@@ -34,24 +34,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 {{ content }}
             </div>
             <hr class="empty">
-            {% if page.modalID %}{{ }}
+            {% if page.modalID %}
+             <div class="post-nav">
+                
+                <a href="/portfolio-list.html" class="to-portfolio-list">Back</a>
+             </div>
             {% else %}
-            <div class="post-nav">
+             <div class="post-nav">
                 
                 <a href="/blog.html" class="to-blog">Back to Blog</a>
                 
                 <br>
                 <a href="/">Home</a>
-            </div>
+             </div>
 
-            <div class="signup">
+             <div class="signup">
                 {% include mailchimp-embedded.html %}
-            </div>
+             </div>
             {% endif }
         </section>
-
         {% include footer.html %}
+        
     </div>
+    
     {% include javascript.html %}
 </body>
 

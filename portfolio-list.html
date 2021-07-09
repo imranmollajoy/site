@@ -7,15 +7,19 @@ layout: posts
 		<h1 class="text-center">Portfolio_</h1>
 		</div>
     </div>
-    <div class="post-list">
-        {% for post in site.categories.Portfolio %}
-        <div class="single-post  transition-zoom-out" {% if post.img %} style="background: linear-gradient(rgba(0,0,0,0.84) 30%, #27cf8691 100%), url({{ post.img }});background-size:cover;
-			background-position:center;  " {% endif %}>
-
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-
-
-        </div>
-        {% endfor %}
-    </div>
+    <section class="portfolio grid-list" id="portfolio">
+        <ul>
+            {% for post in site.categories.Portfolio %}
+            <li>
+                <figure>
+                    
+                    <img src="{{ post.img }}" alt=" {{ post.title }}">
+                    <figcaption>
+                        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    </figcaption>
+                </figure>
+            </li>
+            {% endfor %}
+         </ul>
+    </section>
 </section>
