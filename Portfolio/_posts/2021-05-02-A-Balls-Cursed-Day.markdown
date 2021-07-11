@@ -6,6 +6,7 @@ img: /img/portfolio/abcdcover.jpg
 modalID: modalAbcd
 category: Game
 tools: Unity Engine, Gimp,  Photoshop, fmod
+isOnHome: true
 ---
 This is my first fully featured game. It took me 4 months to complete the game.
 

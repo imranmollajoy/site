@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+plugins:
+  - jekyll-paginate
+  
 # Site settings
 title: Imran Molla Joy
 email: imranmollajoy@gmail.com
@@ -32,3 +35,6 @@ address_zip: 8602
 
 # Build settings
 markdown: kramdown
+
+paginate: 2
+paginate_path: "/Blog/page:num/"

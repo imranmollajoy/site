@@ -6,5 +6,6 @@ img: /img/portfolio/ficmera-mockup.jpg
 modalID: modalFicmera
 category: UI/UX Design
 tools: Figma
+isOnHome: true
 ---
 Design of a camera and gallery app.
