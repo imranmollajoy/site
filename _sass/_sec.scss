@@ -967,3 +967,13 @@ fieldset[disabled] .btn-success {
         padding: 128px 32px;
     }
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: $w;
+    background: $d;
+  }
+  
+  ::selection {
+    color: $w;
+    background: $d;
+  }

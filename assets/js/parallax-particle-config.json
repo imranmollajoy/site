@@ -1,0 +1,106 @@
+{
+    "background": {
+      "color": {
+        "value": "#0d47a1a00"
+      },
+      "position": "50% 50%",
+      "repeat": "no-repeat",
+      "size": "cover"
+    },
+    "fullScreen": {
+      "enable": false,
+      "zIndex": 0
+    },
+    "interactivity": {
+        "detect_on": "window",
+      "events": {
+        "onClick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "onHover": {
+          "enable": false,
+          "mode": "grab",
+          "parallax": {
+            "enable": true,
+            "force": -80
+          }
+        }
+      },
+      "modes": {
+        "bubble": {
+          "distance": 400,
+          "duration": 2,
+          "opacity": 0.8,
+          "size": 40
+        },
+        "grab": {
+          "distance": 90
+        }
+      }
+    },
+    "particles": {
+      "color": {
+        "value": "#121212"
+      },
+      "links": {
+        "color": {
+          "value": "#121212"
+        },
+        "distance": 40,
+        "enable": false,
+        "opacity": 0.4
+      },
+      "move": {
+        "speed": 0.6,
+        "attract": {
+          "rotate": {
+            "x": 600,
+            "y": 1200
+          }
+        },
+        "enable": true,
+        "outModes": {
+          "bottom": "out",
+          "left": "out",
+          "right": "out",
+          "top": "out"
+        }
+      },
+      "number": {
+        "value": 35,
+            "density": {
+              "enable": true,
+              "value_area": 789.1476416322727
+            }
+      },
+      "opacity": {
+        "random": {
+          "enable": true
+        },
+        "value": {
+          "min": 0.1,
+          "max": 1
+        },
+        "animation": {
+          "enable": true,
+          "speed": 0.3,
+          "minimumValue": 0.1
+        }
+      },
+      "size": {
+        "random": {
+          "enable": true
+        },
+        "value": {
+          "min": 10,
+          "max": 100
+        },
+        "animation": {
+          "enable": true,
+          "speed": 2,
+          "minimumValue": 0.1
+        }
+      }
+    }
+  }
