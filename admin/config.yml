@@ -18,9 +18,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Category", name: "category", widget: "string"}
-      - {label: "Tags", name: "tag", widget: "list", default: ["tag",'tag2'] }
+      - {label: "Tags", name: "tag", widget: "list",9 default: ["tag",'tag2'] }
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "img", widget: "image"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "portfolio" # Used in routes, e.g., /admin/collections/blog
     label: "Portfolio" # Used in the UI

@@ -3,6 +3,7 @@ layout: post
 title: Make a hero section with HTML5 and CSS
 category: Web Development
 tags: hero section with HTML5 and CSS, make a hero section, what is a hero section
+excerpt: Hero section is cool. It is essential for modern website design. A hero section gives a website nice personality and look. The first thing visitor will notice is the hero section. It creates a positive feelings for them. Making a hero section is super easy.
 tag:
   - make a hero section
   - hero section

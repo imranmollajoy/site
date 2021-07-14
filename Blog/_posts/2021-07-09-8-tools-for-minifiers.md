@@ -2,6 +2,7 @@
 layout: post
 title: 5 tools for CSS minification
 category: Web Development
+excerpt: CSS minification means removing unnecessary characters to reduce file size to reduce the load time. Minification is important because it makes webpages faster and increases overall user experience.
 tag:
   - minify css
   - tools for minifiction
