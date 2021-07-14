@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Speed up your website by optimizing JavaScript minification "
+title: Speed up your website by optimizing JavaScript
 category: Web Development
 tag:
   - minify js
