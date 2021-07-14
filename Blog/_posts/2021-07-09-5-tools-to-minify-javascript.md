@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Speed up your website by optimizing JavaScript minification "
+title: Speed up your website by optimizing JavaScript
 category: Web Development
 tag:
   - minify js
@@ -8,7 +8,7 @@ tag:
   - top tools for js minify
   - js minify
 date: 2021-07-12T15:11:18.932Z
-img: /img/uploads/5-tools-to-minify-javascript.jpg
+img: /img/uploads/5-tools-to-minify-javascript-min.jpg
 excerpt: JavaScript minifying is removing whitespaces, comments, line breaks,
   and block delimiters in a JavaScript file to make it small in size. Smaller
   file size means faster loading time, faster loading time means better user
