@@ -18,7 +18,7 @@
 	
 	o("#mainNav").affix({
         offset: {
-            top: 50
+            top: 400
         }
     }), 
 	
