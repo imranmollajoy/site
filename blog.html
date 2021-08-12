@@ -9,6 +9,7 @@ layout: posts
     </div>
     <!-- <div class="post-list">
         {% for post in site.categories.Blog %}
+         {% unless post.category == "Random" %}
         <div class="single-post  transition-zoom-out" {% if post.img %} style="background: linear-gradient(rgba(0,0,0,0.84) 30%, #27cf8691 100%), url({{ post.img }});background-size:cover;
 			background-position:center;  " {% endif %}>
 
@@ -16,11 +17,13 @@ layout: posts
 
 
         </div> 
+         {% endunless %}
         {% endfor %} -->
 
         <section class="portfolio grid-list" id="portfolio">
             <ul>
                 {% for post in site.categories.Blog %}
+		    {% unless post.category == "Random" %}
                 <li>
                     <figure>
                         
@@ -31,6 +34,7 @@ layout: posts
                     </figure>
                     
                 </li>
+		    {% endunless %}
                 {% endfor %}
              </ul>
         </section>
