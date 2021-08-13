@@ -1,0 +1,28 @@
+---
+label: Portfolio
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: modalID
+  label: modalID
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tools
+  label: tools
+- type: text
+  name: category
+  label: category
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: img
+  label: img
+- type: boolean
+  name: isOnHome
+  label: isOnHome
