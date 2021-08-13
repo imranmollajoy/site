@@ -14,12 +14,6 @@ sections:
   label: Blogs
   create: documents
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
 upload_dir: img/uploads
 public_path: "/img/uploads"
 front_matter_path: ''
