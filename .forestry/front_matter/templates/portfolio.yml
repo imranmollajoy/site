@@ -8,14 +8,26 @@ fields:
 - type: text
   name: modalID
   label: modalID
+  config:
+    required: true
 - type: text
   name: title
   label: title
-- type: text
-  name: tools
+  config:
+    required: true
+- name: tools
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
   label: tools
-- type: text
-  name: category
+- name: category
+  type: list
+  config:
+    use_select: false
+    min: 1
+    max: 
   label: category
 - type: datetime
   name: date
