@@ -36,3 +36,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- Blog/_posts/make-a-hero-section-with-html5-and-css.md
