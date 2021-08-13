@@ -5,6 +5,11 @@ admin_path: admin/
 webhook_url: 
 sections:
 - type: directory
+  path: Portfolio/posts
+  label: Portfolio
+  create: documents
+  match: "**/*"
+- type: directory
   path: Blog/_posts
   label: Blogs
   create: documents
