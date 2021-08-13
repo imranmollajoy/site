@@ -8,21 +8,31 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: category
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Web Development
+    - Game Development
+    - Random
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: category
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
-- type: textarea
-  name: excerpt
-  label: excerpt
-- type: list
-  name: tag
-  label: tag
 - type: datetime
   name: date
   label: date
 - type: file
   name: img
   label: img
+- type: textarea
+  name: excerpt
+  label: excerpt
