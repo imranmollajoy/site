@@ -28,7 +28,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
             </ul>
             {% if page.img %}
-            <img src={{ page.img | relative-url }} alt=""> {% endif %}
+            <img src={{ page.img | relative-url }} alt="">
+			{% endif %}
 
             <div class="content">
                 {{ content }}
