@@ -69,9 +69,7 @@ jobs:
         with:
           github_token: ${{ secrets.GHTOKEN }}
           publish_dir: ./_site
-          force-add: 'true'
-          force-push: 'true'
-          files: CNAME
+          cname: imranmolla.com 
           # if the repo you are deploying to is <username>.github.io, uncomment the line below.
           # if you are including the line below, make sure your source files are NOT in the master branch:
-          publish_branch: gh-pages
+          #publish_branch: gh-pages
