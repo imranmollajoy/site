@@ -202,17 +202,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     console.error(error);
   });
   </script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+  
+
 </body>
 
 </html>
