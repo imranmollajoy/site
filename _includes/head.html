@@ -1,5 +1,3 @@
----
----
 <head>
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -41,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/png" sizes="32x32" href={{ "/assets/fav/favicon-32x32.png" | relative_url }}>
 <link rel="icon" type="image/png" sizes="16x16" href={{ "/assets/fav/favicon-16x16.png" | relative_url }}>
 <link rel="manifest" href={{ "/assets/fav/site.webmanifest" | relative_url }}>
-   {{ include opengraph.html }}
+   {% include opengraph.html %}
 	{% if jekyll.environment == 'production' %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-201395291-1"></script>
